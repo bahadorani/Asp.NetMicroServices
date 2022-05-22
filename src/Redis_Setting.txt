@@ -1,0 +1,4 @@
+righ click on docker-compose and select Open in Terminal
+write "docker pull redis" then click enter
+write "docker images" and see redis in the list of images on docker
+write "docker run -d -p 6379:6379 --name aspnetrun-redis redis" and run redis in docker

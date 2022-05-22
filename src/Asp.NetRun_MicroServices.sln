@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6383AD75-0F84-4255-B900-483F4F52D798}"
+	ProjectSection(SolutionItems) = preProject
+		Redis_Setting.txt = Redis_Setting.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{4399176E-C6FA-43D9-B67F-73E6787A54B7}"
 EndProject
