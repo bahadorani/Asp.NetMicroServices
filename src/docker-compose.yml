@@ -3,10 +3,30 @@ version: '3.4'
 services:
   catalogdb:
     image: mongo
+
+  basketdb:
+    image: redis:alpine
+
+  discountdb:
+    image: postgres
+
+  pgadmin:
+    image: dpage/pgadmin4
+
   catalog.apl:
     image: ${DOCKER_REGISTRY-}catalogapl
     build:
       context: .
       dockerfile: Services/Catalog/Catalog.APl/Dockerfile
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+
+
 volumes:
   mongo_data:
+  portainer_data:
+  postgres_data:
+  pgadmin_data:

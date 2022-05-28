@@ -1,0 +1,4 @@
+
+install these packeges in NuGet:
+Npgsql
+Dapper
