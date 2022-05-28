@@ -75,7 +75,7 @@ namespace Discount.API.Repository
         private NpgsqlConnection SetConnction()
         {
             var connection = new NpgsqlConnection
-                (_configuration.GetValue<string>("DatabaseSetting:ConnectionString"));
+                (_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
             return connection;
         }
     }
