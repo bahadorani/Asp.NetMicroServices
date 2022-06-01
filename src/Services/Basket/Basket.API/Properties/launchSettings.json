@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:46282",
+      "applicationUrl": "http://localhost:16014",
       "sslPort": 0
     }
   },
@@ -26,12 +26,6 @@
       },
       "dotnetRunMessages": "true",
       "applicationUrl": "http://localhost:5001"
-    },
-    "Docker": {
-      "commandName": "Docker",
-      "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
-      "publishAllPorts": true
     }
   }
 }
