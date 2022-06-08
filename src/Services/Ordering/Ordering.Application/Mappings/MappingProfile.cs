@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Ordering.Application.Feachuers.Orders.Commands.CheckOutOrder;
+using Ordering.Application.Feachuers.Orders.Commands.UpdateOrder;
 using Ordering.Application.Feachuers.Orders.Queries;
 using Ordering.Domain.Entities;
 
@@ -16,6 +17,7 @@ namespace Ordering.Application.Mappings
         {
             CreateMap<Order, OrderVM>().ReverseMap();
             CreateMap<Order, CheckOutOrderCommand>().ReverseMap();
+            CreateMap<Order, UpdateOrderCommand>().ReverseMap();
         }
     }
 }
